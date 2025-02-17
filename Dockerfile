@@ -1,4 +1,4 @@
-ARG RVERSION
+ARG RVERSION=4.4.2
 FROM rocker/r-ver:$RVERSION
 
 RUN apt-get update && apt-get upgrade -y
